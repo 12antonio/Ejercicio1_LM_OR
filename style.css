@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+
+article{
+    
+}
+
+.alumno{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.perfil{
+    color: black;
+    padding: 10px;
+    
+}
+
+.idiomas{
+    padding: 10px;
+}
+
+.estudios{
+    color: black;
+    padding: 10px;
+}
+
+.skills{
+    color: black;
+    padding: 10px;
+}
+
+.contacto{
+    background-color: rgb(209, 160, 24);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.idiomas{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.intereses{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h6{
+   
+}
+
+.tipos_skills{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.comunidad{
+    text-align: justify;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:500px){
+    body{
+        grid-template-columns: auto;
+    }
+}
