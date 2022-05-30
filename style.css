@@ -63,19 +63,81 @@ article{
     text-align: center;
 }
 
+.formulario{
+    float: right;
+}
+
 h6{
    
 }
 
 .tipos_skills{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    row-gap: 10px;
+    column-gap: 50px;
     
+}
+
+.uno{
+    background-color: rgb(209, 160, 24);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.dos{
+    background-color: rgb(209, 160, 24);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.tres{
+    background-color: rgb(209, 160, 24);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.cuatro{
+    background-color: rgb(209, 160, 24);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.cinco{
+    background-color: rgb(209, 160, 24);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.seis{
+    background-color: rgb(209, 160, 24);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.siete{
+    background-color: rgb(209, 160, 24);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.ocho{
+    background-color: rgb(209, 160, 24);
+    border-style: solid;
+    border-radius: 5px;
 }
 
 .comunidad{
     text-align: justify;
     vertical-align: middle;
+}
+
+.comunidad-imagen{
+    border-radius: 150px;
+}
+
+.clara-imagen{
+    border-radius: 150px;
 }
 
 @media screen and (max-width:500px){
